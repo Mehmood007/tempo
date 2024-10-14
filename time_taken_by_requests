@@ -1,0 +1,20 @@
+INFO:main:Request: /token - Time taken: 0.1933 seconds
+INFO:     127.0.0.1:48898 - "POST /token HTTP/1.1" 200 OK
+
+INFO:main:Request: /users/66f7602f51a7ef00ce1c6f48 - Time taken: 0.0040 seconds
+INFO:     127.0.0.1:51232 - "GET /users/66f7602f51a7ef00ce1c6f48 HTTP/1.1" 200 OK
+
+INFO:main:Request: /city/users - Time taken: 0.0032 seconds
+INFO:     127.0.0.1:33756 - "GET /city/users HTTP/1.1" 200 OK
+
+INFO:main:Request: /friend/request - Time taken: 0.0070 seconds
+INFO:     127.0.0.1:38880 - "POST /friend/request HTTP/1.1" 200 OK
+
+INFO:main:Request: /friends - Time taken: 0.0061 seconds
+INFO:     127.0.0.1:35354 - "GET /friends HTTP/1.1" 200 OK
+
+INFO:main:Request: /not-friends - Time taken: 0.0065 seconds
+INFO:     127.0.0.1:37138 - "GET /not-friends HTTP/1.1" 200 OK
+
+INFO:main:Request: /search/users - Time taken: 0.0031 seconds
+INFO:     127.0.0.1:38648 - "GET /search/users?first_name=string HTTP/1.1" 200 OK
